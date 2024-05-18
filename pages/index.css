@@ -58,7 +58,7 @@
   letter-spacing: -1px;
 }
 
-.span__accent {
+.header__accent {
   display: block;
   font-style: italic;
   font-family: "Noto Serif", "Times New Roman", serif;
