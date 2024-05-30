@@ -12,7 +12,6 @@
 .footer__logo {
   width: 105px;
   height: 39px;
-  position: relative;
   z-index: 1;
 }
 
@@ -24,7 +23,6 @@
   position: absolute;
   top: -128px;
   left: -44px;
-  z-index: 0;
 }
 
 .footer__social-heading {
