@@ -19,7 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>MyCoffe</title>
   </head>
@@ -40,7 +39,7 @@
               <a href="#reservation" class="nav__link">Reservar uma Mesa</a>
             </li>
             <li>
-              <a href="" class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -168,7 +167,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logotipo da Triple Expresso"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Mídias sociais</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Ícone do Facebook"
+                    class="footer__social-icon"
+                  />
+                  <p class="footer__social-name">Facebook</p>
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Ícone do Instagram"
+                    class="footer__social-icon"
+                  />
+                  <p class="footer__social-name">Instagram</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__circle"></div>
+        <p class="footer__copyright">© 2024 Miquéias Olivera</p>
+      </footer>
     </div>
   </body>
 </html>
