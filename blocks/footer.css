@@ -2,6 +2,7 @@
   background-color: #0a2850;
   padding: 60px 80px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer__content {
@@ -23,7 +24,7 @@
   position: absolute;
   top: -128px;
   left: -44px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .footer__social-heading {
