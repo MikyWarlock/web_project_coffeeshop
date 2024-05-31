@@ -23,6 +23,7 @@
   position: absolute;
   top: -128px;
   left: -44px;
+  overflow: hidden;
 }
 
 .footer__social-heading {
